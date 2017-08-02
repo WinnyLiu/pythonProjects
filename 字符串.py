@@ -46,7 +46,8 @@
 #练习
 height=1.75
 weight=80.5
-bmi=weight/height
+#bmi=weight/height/height
+bmi=weight/pow(height,2)
 if bmi<18.5:
     print('过轻')
 elif bmi>=18.5 and bmi<=25:
